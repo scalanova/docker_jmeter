@@ -22,7 +22,7 @@ RUN apt-get update
 RUN apt-get install -y oracle-java8-installer
 
 RUN mkdir -p $JMETER_PATH && cd $JMETER_PATH && \
-    wget http://www.eu.apache.org/dist//jmeter/binaries/apache-jmeter-$JMETER_VERSION.tgz && \
+    wget https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-$JMETER_VERSION.tgz && \
     tar -zxf apache-jmeter-$JMETER_VERSION.tgz && \
     rm apache-jmeter-$JMETER_VERSION.tgz
 
