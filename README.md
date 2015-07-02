@@ -14,7 +14,7 @@
   FROM rdpanek/jmeter:2.12
 
 ### Build
-  `git clone https://github.com/rdpanek/docker_jmeter`
+  `git clone https://github.com/scalanova/docker_jmeter.git`
 
   `make build`
 
