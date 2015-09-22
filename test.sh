@@ -10,12 +10,12 @@ echo "Number of threads is: $thread"
 echo "Please enter number of loops..."
 read loop
 echo "Number of loops is: $loop"
-echo "Please enter temperature value..."
-read temperature
-echo "Temperature is: $tempetature"
-echo "Please enter pressure value..."
-read pressure
-echo "Pressure value is: $pressure"
+#echo "Please enter temperature value..."
+#read temperature
+#echo "Temperature is: $tempetature"
+#echo "Please enter pressure value..."
+#read pressure
+#echo "Pressure value is: $pressure"
 
 cp OrionTestPlan.jmx Test.jmx
 
