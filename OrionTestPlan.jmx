@@ -50,7 +50,7 @@
           <boolProp name="LoopController.continue_forever">false</boolProp>
           <stringProp name="LoopController.loops">_loop_</stringProp>
         </elementProp>
-        <stringProp name="ThreadGroup.num_threads">_thred_</stringProp>
+        <stringProp name="ThreadGroup.num_threads">_thread_</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <longProp name="ThreadGroup.start_time">1429793664000</longProp>
         <longProp name="ThreadGroup.end_time">1429793664000</longProp>
