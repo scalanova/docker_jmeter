@@ -70,12 +70,12 @@
 {&#xd;
   &quot;name&quot; : &quot;temperature&quot;,&#xd;
   &quot;type&quot; : &quot;float&quot;,&#xd;
-  &quot;value&quot; : &quot;_temperature_&quot;&#xd;
+  &quot;value&quot; : &quot;${__Random(1,55)}&quot;&#xd;
 },&#xd;
 {&#xd;
   &quot;name&quot; : &quot;pressure&quot;,&#xd;
   &quot;type&quot; : &quot;integer&quot;,&#xd;
-  &quot;value&quot; : &quot;_pressure_&quot;&#xd;
+  &quot;value&quot; : &quot;${__Random(400,800)}&quot;&#xd;
 }&#xd;
   ]&#xd;
 }</stringProp>
